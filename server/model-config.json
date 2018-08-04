@@ -36,15 +36,15 @@
     "public": false
   },
   "persona": {
-    "dataSource": "mongo-persona",
+    "dataSource": "mongo",
     "public": true
   },
   "answer": {
-    "dataSource": "mongo-persona",
+    "dataSource": "mongo",
     "public": true
   },
   "question": {
-    "dataSource": "mongo-persona",
+    "dataSource": "mongo",
     "public": true
   }
 }

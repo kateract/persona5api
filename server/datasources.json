@@ -3,14 +3,12 @@
     "name": "db",
     "connector": "memory"
   },
-  "mongo-persona": {
-    "host": "mongo-persona",
+  "mongo": {
+    "host": "mongo",
     "port": 27017,
-    "url": "",
+    "url": "mongodb://mongo:27017/persona",
     "database": "persona",
-    "password": "",
-    "name": "mongo-persona",
-    "user": "",
+    "name": "mongo",
     "connector": "mongodb"
   }
 }
