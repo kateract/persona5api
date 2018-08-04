@@ -1,0 +1,27 @@
+{
+  "name": "persona",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "codeName": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "arcana": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
