@@ -12,6 +12,11 @@
     },
     "type": {
       "type": "string"
+    },
+    "types": {
+      "type": [
+        "string"
+      ]
     }
   },
   "validations": [],
