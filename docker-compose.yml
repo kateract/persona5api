@@ -1,22 +1,22 @@
 version: '3.1'
 
-services: 
+services:
   persona_api:
     container_name: persona_api
-    restart: always 
+    restart: always
     build: .
-    ports: 
+    ports:
       - "3000:3000"
-    links: 
+    links:
       - mongo
-  
-  mongo: 
+
+  mongo:
     container_name: mongo
     image: mongo
     restart: always
-    volumes: 
-      - ../.personadata:/data/db
-    ports: 
+    volumes:
+      - ./data/db
+    ports:
       - "27017:27017"
 
   mongo-express:
