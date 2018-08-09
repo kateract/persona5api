@@ -9,6 +9,8 @@ services:
       - "3000:3000"
     links:
       - mongo
+    environment:
+      - "constraint:ostype==x64"
 
   mongo:
     container_name: mongo
@@ -18,9 +20,14 @@ services:
       - ./data/db:/data/db
     ports:
       - "27017:27017"
+    environment:
+      - "constraint:ostype==x64"
 
   mongo-express:
     image: mongo-express
     restart: always
     ports:
       - 8081:8081
+    environment:
+      - "constraint:ostype==x64"
+
