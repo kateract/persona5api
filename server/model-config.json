@@ -46,5 +46,9 @@
   "question": {
     "dataSource": "mongo",
     "public": true
+  },
+  "damageEffectiveness": {
+    "dataSource": "mongo",
+    "public": true
   }
 }

@@ -21,7 +21,16 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "damageEffectiveness": {
+      "type": "hasOne",
+      "model": "damageEffectiveness",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }
